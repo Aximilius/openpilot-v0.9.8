@@ -1,3 +1,13 @@
+# openpilot-v0.9.8
+
+This is a fork of comma.ai's https://github.com/commaai/openpilot v0.9.8 release for use of the replay tool. This will allow for driving video to be converted into segments and further into individual frames that can then be used to build a world model for the University of Oklahoma Mobility Intelligence Laboratory (OU MiLa).
+
+This fork includes an updated uv.lock file to fix an incorrect hash for the metadrive-simulator package and [OU MiLa's custom modeld script](https://github.com/OUMiLa/Openpilot_Custom/tree/main) to sort raw and feature data for each frame into segments.
+
+This fork is a submodule of https://github.com/Aximilius/World-Model.git.
+
+---
+
 <div align="center" style="text-align: center;">
 
 <h1>openpilot</h1>
